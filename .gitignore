@@ -1,0 +1,46 @@
+# Wiki folder - do not commit
+wiki/
+
+# Node
+testing-1/node_modules/
+
+# Environment secrets
+testing-1/.env
+testing-1/.env.local
+testing-1/.env*.local
+
+# Python (from testing-1)
+testing-1/__pycache__/
+testing-1/*.py[oc]
+testing-1/build/
+testing-1/dist/
+testing-1/wheels/
+testing-1/*.egg-info
+testing-1/.venv/
+testing-1/.python-version
+testing-1/pyproject.toml
+testing-1/uv.lock
+testing-1/src/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+.cache/

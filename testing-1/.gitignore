@@ -1,0 +1,20 @@
+# Node
+node_modules/
+
+# Environment secrets
+.env
+.env.local
+.env*.local
+
+# Python (unused, from initial uv init)
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+.python-version
+pyproject.toml
+uv.lock
+src/
